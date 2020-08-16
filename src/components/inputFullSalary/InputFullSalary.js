@@ -14,6 +14,7 @@ export default class InputFullSalary extends Component {
         <input
           className= {`validate ${css.inputFullSalary}`}
           type="number"
+          step="100"
           id="fullSalary"
           value={valueSalary}
           onChange={this.handleInputChange}
