@@ -1,0 +1,14 @@
+.inputFullSalary {
+  width: 960px;
+}
+
+
+input:focus,
+input:not(:focus) {
+  border-bottom: 1px solid #757575    !important;
+  box-shadow: 0 1px 0 0 #757575    !important;
+}
+
+label {
+  color: #757575    !important;
+}
